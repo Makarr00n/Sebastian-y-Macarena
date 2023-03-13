@@ -1,0 +1,106 @@
+body{
+    font-family: 'Satisfy', cursive;
+    background-color: black;
+}
+header{
+    background-image: url(./imagenes/fondo1.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.titulo{
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 350px;
+    font-size: 50px;
+}
+.nav_{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.nav_ li{
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.link{
+    text-decoration: none;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,180px);
+    justify-content: center;
+    margin:10px auto;
+}
+.grid-item{
+    width: 170px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    cursor: zoom-in;
+    background-color: lightgray;
+}
+.grid-{
+    width: 170px;
+}
+.grid-item:hover .grid-{
+    filter: opacity(0.5);
+}
+.grid-item:hover .fecha{
+    display: block;
+}
+.grid-item:hover .cora{
+    display: block;
+}
+.fecha{
+    color: white;
+    display: none;
+    position:absolute;
+    top:80%;
+    background-color: #e61134;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    padding: 0%;
+    border-radius: 8px;
+}
+.cora{
+    display: none;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+.portada{
+    width: 100%;
+}
+.intro{
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+    background-image: url(./imagenes/Diseño\ sin\ título\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    font-style: oblique;
+}
+.musica{
+    display: flex;
+    margin-top: -15%;
+    justify-content: center;
+}
+.musica img a{
+    padding: 0%;
+    margin: 0%;
+}
+.musica:hover {
+    scale: 1.2;
+}
+.fondo{
+    width: 100%;
+    border-radius: 25px;
+}
